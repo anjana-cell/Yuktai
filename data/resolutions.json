@@ -1,0 +1,8 @@
+[
+  {
+    "order_id": "ord1015",
+    "decision": "resolved",
+    "reason": "Verified the settlement discrepancy against the processor settlement record.",
+    "timestamp": "2026-09-04T18:36:15.961802+00:00"
+  }
+]

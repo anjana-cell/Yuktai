@@ -229,6 +229,9 @@ for i in range(NUM_TRANSACTIONS):
         "expected_status": scenario,
         "scenario": scenario,
         "expected_payment": payment_amount,
+        "expected_payment_id": payment_id
+        if payment_status != "missing"
+        else None,
         "expected_settlement": settled_amount
         if settlement_status != "missing"
         else None,
