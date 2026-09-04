@@ -35,8 +35,11 @@ REST APIs with FastAPI
 Tech Stack
 
 Backend: Python, FastAPI, Pandas, RapidFuzz, Pydantic
+
 AI: Google Gemini, google-genai
+
 Frontend: React, Vite, Axios, Recharts
+
 Data: CSV + JSON persistence
 
 Dataset
@@ -49,6 +52,7 @@ Synthetic dataset used for testing:
 500 Ground-truth records
 
 Scenarios include amount mismatches, partial settlements, missing payments, missing settlements, duplicate payments, and other reconciliation variations.
+
 Evaluation
 
 On the controlled synthetic ground-truth dataset:
@@ -62,9 +66,7 @@ This result represents performance on the project's synthetic test dataset and d
 Run Locally
 Backend
 python -m venv backend/.venv
-
-Windows:
-
+Windows
 backend\.venv\Scripts\activate
 pip install fastapi uvicorn pandas rapidfuzz pydantic python-dotenv python-multipart google-genai
 set PYTHONPATH=backend
